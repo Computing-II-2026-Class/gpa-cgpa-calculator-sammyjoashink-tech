@@ -9,7 +9,6 @@ float getGradePoint(float score);
 char* getGrade(float score);
 
 int main(void) {
-    int main(){
     // Exact Course Codes from curriculum
     char *sem1_codes[] = {"TEMB 1101", "TEMB 1102", "TEMB 1103", "TEMB 1104", 
                           "TEMB 1105", "TEMB 1106", "TEMB 1107", "TEMB 1108"};
@@ -110,7 +109,7 @@ char* getGrade(float score) {
     if (score >= 50) return "D";
     return "F";
 }
-    /* Declare variables here */
+{   /* Declare variables here */
 
     /* Read 16 scores */
 
